@@ -1,5 +1,5 @@
 * {
-  padding: 20p;
+  padding: 20;
   margin: 0;
   background-color: rgb(1, 15, 26);
   color: #fff;
@@ -9,6 +9,8 @@
   list-style: none;
   border: none;
   outline: none;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 header {
   position: fixed;
@@ -21,6 +23,7 @@ header {
   justify-content: space-between;
   align-items: center;
   z-index: 10;
+  width: auto;
 
 }
 nav .menu li {
@@ -80,5 +83,13 @@ h1{
   #img2 {
     display: flex;
     justify-content: flex-end;
-  
+}
+
+#img2 img {
+  width: 200px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+body{
+  margin-top: 10%;
 }
