@@ -48,17 +48,14 @@ footer {
   padding: 20px;
   margin-top: 100px;
 }
-.logo img{
-  width: 50px;
-  height: 50px;
-}
+
 
 .footer-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: auto;
+  margin:  auto;
 }
 
 .left-section, .right-section {
@@ -85,11 +82,32 @@ h1{
     justify-content: flex-end;
 }
 
-#img2 img {
-  width: 200px; /* Adjust the width as needed */
-  height: auto; /* Maintain aspect ratio */
+#img2  img {
+  width: 200px; 
+  height: auto; 
 }
 
 body{
   margin-top: 10%;
+}
+
+#img1 img {
+  width: 200px; 
+  height: auto; 
+}
+
+.right-section .logo {
+  margin-right: 30px;
+}
+
+.right-section .logo:last-child {
+  margin-right: 0;
+}
+
+#under {
+  text-decoration: underline;
+}
+
+#b {  
+    font-weight: bold;
 }
