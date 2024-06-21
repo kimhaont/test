@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Space Grotesk", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+    margin-left: 2%;
+  margin-right: 2%;
+    
+  }
+header {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: rgb(1, 15, 26);
+    padding: 24px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    z-index: 10;
+    margin-bottom: 100px;
+  }
+
+  nav .menu li{
+    display:inline-block;
+    margin-left: 40px;
+  }
+  nav .menu a {
+    color: #fff;
+    padding-bottom: 2px;
+    
+  }
+  header img{
+    width: 178px;
+    height: 19px;
+  }
+  nav .menu a:hover{
+    border-bottom: 1.5px solid #fff ;
+  }
+  nav .menu a:focus{
+    border-bottom: 1.5px solid #fff ;
+  }
+
+  footer {
+    background-color: rgb(1, 15, 26);
+    color: #fff;
+    padding: 20px;
+    margin-top: 100px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: auto;
+    margin:  auto;
+  }
+  .left-section, .right-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .left-section a, .right-section a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  .left-section a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 100px;
+  }
+  .right-section .logo {
+    margin-right: 30px;
+  }
+  
+  .right-section .logo:last-child {
+    margin-right: 0;
+  }
+
+  .left-section1{
+    display: flex;
+    align-items: left;
+    display: column;
+  }
+  
+  #email ,#name{
+    outline: 0cm;
+    height: 50px;
+    width:600px;
+    background-color: beige;
+  }
+
+  #message {
+    outline: 0cm;
+    height: 100px;
+    min-width: 600px ;
+    background-color: beige;
+  }
+
+  .from {
+    padding: 1%;
+  }
+
+  .name, .email {
+    margin-bottom: 30px;
+  }
+  .message{
+    margin-bottom: 10px;
+  }
+
+  .img1 img{
+    width: 200px;
+    height: 200px;
+  }
+  body{
+    margin-top: 10%;
+  }
+
+  .end.img2 img{
+    width: 255.91px;
+     height: 427.13px;
+                }
+
