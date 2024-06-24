@@ -1,14 +1,14 @@
 * {
-    padding: 0;
-    margin: 0;
-    font-family: "Space Grotesk", sans-serif;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-    border: none;
-    outline: none;
-    background-color: rgb(1, 15, 26);
-    color: #fff;
+  padding: 0;
+  margin: 0;
+  font-family: "Space Grotesk", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  outline: none;
+  background-color: rgb(1, 15, 26);
+  color: #fff;
 }
 
 header {
@@ -20,7 +20,7 @@ header {
   padding: 24px 16px;
   display: flex;
   justify-content: space-between;
-  align-items:center ;
+  align-items: center;
   z-index: 10;
   margin-bottom: 100px;
   margin-left: 10%;
@@ -28,24 +28,28 @@ header {
 
 }
 
-nav .menu li{
-  display:inline-block;
+nav .menu li {
+  display: inline-block;
   margin-left: 40px;
 }
+
 nav .menu a {
   color: #fff;
   padding-bottom: 2px;
-  
+
 }
-header img{
+
+header img {
   width: 178px;
   height: 19px;
 }
-nav .menu a:hover{
-  border-bottom: 1.5px solid #fff ;
+
+nav .menu a:hover {
+  border-bottom: 1.5px solid #fff;
 }
-nav .menu a:focus{
-  border-bottom: 1.5px solid #fff ;
+
+nav .menu a:focus {
+  border-bottom: 1.5px solid #fff;
 }
 
 footer {
@@ -63,23 +67,28 @@ footer {
   justify-content: space-between;
   align-items: center;
   max-width: auto;
-  margin:  auto;
+  margin: auto;
 }
-.left-section, .right-section {
+
+.left-section,
+.right-section {
   display: flex;
   align-items: center;
 }
 
-.left-section a, .right-section a {
+.left-section a,
+.right-section a {
   color: #fff;
   text-decoration: none;
   margin-right: 20px;
 }
+
 .left-section a {
   color: #fff;
   text-decoration: none;
   margin-right: 100px;
 }
+
 .right-section .logo {
   margin-right: 30px;
 }
@@ -94,17 +103,18 @@ footer {
   display: column;
 }
 
-#email ,#name {
+#email,
+#name {
   outline: 0cm;
   height: 50px;
-  width:600px;
+  width: 600px;
   background-color: beige;
 }
 
 #message {
   outline: 0cm;
   height: 100px;
-  min-width: 600px ;
+  min-width: 600px;
   background-color: beige;
 }
 
@@ -112,24 +122,27 @@ footer {
   padding: 1%;
 }
 
-.name, .email {
+.name,
+.email {
   margin-bottom: 30px;
 }
-.message{
+
+.message {
   margin-bottom: 10px;
 }
 
-.img1 img{
+.img1 img {
   width: 200px;
   height: 200px;
 }
-body{
+
+body {
   margin-top: 10%;
 }
 
-.end.img2 img{
+.end.img2 img {
   width: 255.91px;
-    height: 427.13px;
+  height: 427.13px;
 }
 
 .undnerline {
@@ -144,11 +157,13 @@ body{
   width: 138px;
   height: 50px;
   position: absolute;
-  
- 
+
+
 }
 
-.end, .img1 ,.underline {
+.end,
+.img1,
+.underline {
   margin-left: 10%;
   margin-right: 10%;
 }

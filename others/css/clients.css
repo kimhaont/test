@@ -10,6 +10,7 @@
   border: none;
   outline: none;
 }
+
 header {
   position: fixed;
   top: 0px;
@@ -26,22 +27,27 @@ header {
   margin-right: 10%;
 
 }
+
 nav .menu li {
   display: inline-block;
   margin-left: 40px;
 }
+
 nav .menu a {
   color: #fff;
   padding-bottom: 2px;
 }
+
 nav .menu a:hover,
 nav .menu a:focus {
   border-bottom: 1.5px solid #fff;
 }
+
 header img {
   width: 178px;
   height: 19px;
 }
+
 footer {
   background-color: rgb(1, 15, 26);
   color: #fff;
@@ -55,47 +61,51 @@ footer {
   justify-content: space-between;
   align-items: center;
   max-width: auto;
-  margin:  auto;
+  margin: auto;
 }
 
-.left-section, .right-section {
+.left-section,
+.right-section {
   display: flex;
   align-items: center;
 }
 
-.left-section a, .right-section a {
+.left-section a,
+.right-section a {
   color: #fff;
   text-decoration: none;
   margin-right: 20px;
 }
+
 .left-section a {
   color: #fff;
   text-decoration: none;
   margin-right: 100px;
 }
 
-h1{
-  font-size: 100px;}
-
-  #img2 {
-    display: flex;
-    justify-content: flex-end;
+h1 {
+  font-size: 100px;
 }
 
-#img2  img {
-  width: 200px; 
-  height: auto; 
+#img2 {
+  display: flex;
+  justify-content: flex-end;
 }
 
-body{
+#img2 img {
+  width: 200px;
+  height: auto;
+}
+
+body {
   margin-top: 10%;
   margin-left: 10%;
   margin-right: 10%;
 }
 
 #img1 img {
-  width: 200px; 
-  height: auto; 
+  width: 200px;
+  height: auto;
   margin-bottom: 10%;
 }
 
@@ -111,8 +121,7 @@ body{
   text-decoration: underline;
 }
 
-h4{
+h4 {
   margin-bottom: 5%;
   font-weight: normal;
 }
-
