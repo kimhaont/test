@@ -48,6 +48,7 @@ nav .menu a:focus {
 }
 
 /* landing */
+
 #ld container {
   display: flex;
   justify-content: space-between;
@@ -110,7 +111,6 @@ nav .menu a:focus {
 }
 
 /* landing1 */
-
 #ld1 container {
   margin: 40px 5px 20px 0;
   padding: 20px;
@@ -347,13 +347,11 @@ nav .menu a:focus {
   display: flex;
   justify-content: space-between;
   margin: 100px 30px 150px 15px;
-
 }
 .Impressed_left h1 {
   color: #000;
   font-size: 80px;
   /* margin: 100px 0 0 15px; */
- 
 }
 .Impressed_left .Impressed_text {
   font-size: 18px;
@@ -366,8 +364,7 @@ nav .menu a:focus {
   display: flex;
   justify-content: center;
   gap: 12px;
-  margin:150px 0 0 0;
-
+  margin: 150px 0 0 0;
 }
 .Impressed_left .Impressed_image .Impressed_image1 img {
   width: 297px;
@@ -377,13 +374,11 @@ nav .menu a:focus {
   width: 194px;
   height: 202px;
 }
-.Impressed_login{
- display: flex;
- flex-direction: column;
- align-items: start;
- gap: 45px;
-
- 
+.Impressed_login {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 45px;
 }
 .name #name {
   height: 48px;
@@ -397,7 +392,7 @@ nav .menu a:focus {
   font-family: Rubik, sans-serif;
 }
 .lastname #lastname {
-  outline:0cm;
+  outline: 0cm;
   height: 48px;
   width: 503px;
   background-color: #f1f1f1;
@@ -408,38 +403,38 @@ nav .menu a:focus {
   color: #1a1a1a;
   font-family: Rubik, sans-serif;
 }
-.email #email{
+.email #email {
   height: 48px;
   width: 503px;
   background-color: #f1f1f1;
   padding: 16px;
 }
-.message p{
+.message p {
   font-size: 16px;
   color: #1a1a1a;
   font-family: Rubik, sans-serif;
 }
-.message #message{
+.message #message {
   text-align: start;
   height: 96px;
   width: 503px;
   background-color: #f1f1f1;
   padding: 16px;
 }
-.submit #submit::placeholder{
+.submit #submit::placeholder {
   color: #fff;
   font-size: 18px;
 }
-.submit #submit{
+.submit #submit {
   height: 50px;
   width: 134px;
-  background-color:#010F1A ;
+  background-color: #010f1a;
   padding: 16px;
   text-align: center;
 }
-  
+
 /* footer */
-footer{
+footer {
   background-color: rgb(1, 15, 26);
   padding: 24px 16px;
   display: flex;
@@ -455,10 +450,72 @@ nav .footer_left a {
   color: #fff;
   padding-bottom: 2px;
 }
-nav .footer_icon li{
+nav .footer_icon li {
   display: inline-block;
   margin-left: 40px;
 }
-nav .footer_icon i{
+nav .footer_icon i {
   padding-bottom: 2px;
+}
+
+#navToggle {
+  display: none;
+  color: #fff;
+}
+
+@media (max-width: 730px) {
+  .menu {
+    display: none;
+    flex-direction: column;
+    text-align: end;
+    padding: 24px 16px;
+    height: 100%;
+    background-color: rgb(1, 15, 26);
+    gap: 20px;
+  }
+
+  #navToggle {
+    display: flex;
+    position: relative;
+    width: 32px;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav__burger,
+  .nav__close {
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    inset: 0;
+    margin: auto;
+    font-size: 32px;
+    cursor: pointer;
+    transition: opacity 0.1s, transform 0.4s;
+  }
+
+  header nav {
+    position: absolute;
+    left: 0;
+    top: 80px;
+    width: 100%;
+    background-color: #000;
+  }
+
+  nav .menu li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav .menu a {
+    padding: 4px 0px 4px 6px;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  nav .menu a:hover {
+    border-bottom: none;
+  }
 }
